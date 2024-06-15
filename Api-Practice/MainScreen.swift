@@ -66,7 +66,7 @@ struct MainScreen: View {
 
 
 func getUser() async throws -> GithubUser {
-    let endpoint: String = "https://api.github.com/users/sallen0400"
+    let endpoint: String = "https://api.github.com/users/zinthantwin"
     guard let url = URL (string: endpoint) else {
         throw GHError.invalidURL
     }
